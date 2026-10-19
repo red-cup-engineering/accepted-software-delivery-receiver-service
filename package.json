@@ -6,8 +6,7 @@
   "description": "Sovereign SDSS receiver node for separately authorized accepted-delivery staging and admission.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-cup-engineering/computer-code-engineering-services-section.git",
-    "directory": "services/computer-code-development-services-section/services/accepted-software-delivery-receiver-service"
+    "url": "git+https://github.com/red-cup-engineering/accepted-software-delivery-receiver-service.git"
   },
   "exports": {
     ".": "./src/client.mjs",
