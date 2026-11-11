@@ -37,7 +37,7 @@ export function verifyProtocolCarrier() {
   assert.deepEqual(PRESERVED_RUNTIME_ROOTS, ["data", "node_modules"]);
   assert.deepEqual(CORRECTION_STAGE_EFFECTS, ["sdss-receiver-local-private-replacement-plate", "sdss-receiver-local-append-only-evidence", "sdss-existing-target-plate-snapshot"]);
   assert.deepEqual(CORRECTION_ADMIT_EFFECTS, ["sdss-local-crash-recoverable-plate-replacement", "sdss-receiver-local-append-only-evidence", "sdss-prior-plate-digest-preservation", "sdss-displaced-live-plate-removal"]);
-  assert.equal(ADOPTED_MESH_CARRIER, "@red-cup-engineering/agent-harness-computer-system-engineering-services-section/mesh-scope");
+  assert.equal(ADOPTED_MESH_CARRIER, "@red-cup-engineering/agent-harness-computer-systems-engineering-services-section/mesh-scope");
   assert.deepEqual(ADOPTED_MESH_EXPORTS, ["inspectMeshScope", "admitEnterpriseInstall", "revalidateEnterpriseInstall"]);
   assert.match(source, /await import\(ADOPTED_MESH_CARRIER\)/u);
   assert.match(source, /inspectMeshScope/u);

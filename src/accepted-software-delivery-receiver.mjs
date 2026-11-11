@@ -46,7 +46,7 @@ const DEFAULT_DATA_ROOT = join(MODULE_ROOT, "data");
 const SHA = /^sha256:[0-9a-f]{64}$/u;
 const CONTENT_ID = /^urn:sha256:[0-9a-f]{64}$/u;
 // The shared mesh-scope carrier, at its owner (8c7d72e9 removed the private copies this once named).
-export const ADOPTED_MESH_CARRIER = "@red-cup-engineering/agent-harness-computer-system-engineering-services-section/mesh-scope";
+export const ADOPTED_MESH_CARRIER = "@red-cup-engineering/agent-harness-computer-systems-engineering-services-section/mesh-scope";
 export const ADOPTED_MESH_EXPORTS = Object.freeze(["inspectMeshScope", "admitEnterpriseInstall", "revalidateEnterpriseInstall"]);
 
 async function adoptedMeshCarrier(options = {}) {
