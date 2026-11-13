@@ -1,4 +1,4 @@
-import { makeNiUri as rawNiUri } from "@red-cup-engineering/uri-services-section/ni-uri";
+import { makeNiUri as rawNiUri } from "@red-cup-engineering/uri-engineering-services-section/ni-uri";
 import {
   closeSync,
   existsSync,
